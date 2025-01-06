@@ -79,7 +79,7 @@ const AllPosts = () => {
                         <Card>
                             <CardContent>
                                 <Typography variant="h5">{post.profile}</Typography>
-                                <Typography>{post.type === "Offline" ? "Remote" : "Office"}</Typography>
+                                <Typography>{post.type === "Offline" ? "Office" : "Remote"}</Typography>
                                 <Typography>Salary: {post.salary}</Typography>
                                 <Typography 
                                     style={{ color: '#6f6f6f', margin: '10px 0' }}
